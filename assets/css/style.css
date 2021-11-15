@@ -1,26 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     border: none;
-    background-color:
+   
 }
 
 body {
-    font-family: 'Architects Daughter', sans-serif;
+    font-family: 'Russo One', sans-serif;
     font-weight: 400;
+}
+
+h2, p {
+    font-weight: 300;
 }
 
 a {
     text-decoration: none;
 }
 
-/* Logo and catchphrase */
+/* Logo */
 
 h1 {
     padding: 10px;
     margin-left: 20px;
+    font-size: 50px;
+    
 }
 
 #logo {
@@ -33,6 +39,10 @@ h1 {
 
 #menu {
     font-size: 120%;
+    margin-top: 30px;
+    margin-right: 40px;
+    letter-spacing: 3px;
+    
 }
 
 #menu li {
@@ -44,4 +54,47 @@ h1 {
 #menu a {
     text-decoration: none;
 
+}
+
+/* About Section */
+
+#main-about {
+    height: 575px;
+    clear: left;
+    
+}
+
+#about-heading {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#about-text {
+    height: 400px;
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 200px;
+    width: 30%;
+    font-size: 20px;
+}
+#about-text h2 {
+    padding-bottom: 30px;
+    font-size: 50px;
+    text-decoration: underline ;
+}
+
+#about-image {
+    background: url(../images/three-women-taking-selfie.jpg) no-repeat center;
+    height: 400px;
+    width: 560px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 100px;
+    border-radius: 4%;
+}
+
+#about-image:hover {
+    
 }
