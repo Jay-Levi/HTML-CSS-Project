@@ -10,6 +10,11 @@
 body {
     font-family: 'Russo One', sans-serif;
     font-weight: 400;
+    background: url(../images/background-image.jpg) no-repeat center center;
+}
+
+hr {
+    border-style: solid;
 }
 
 h2, p {
@@ -87,14 +92,59 @@ h1 {
 
 #about-image {
     background: url(../images/three-women-taking-selfie.jpg) no-repeat center;
-    height: 400px;
-    width: 560px;
+    height: 395px;
+    width: 670px;
     float: right;
     margin-top: 100px;
     margin-right: 100px;
     border-radius: 4%;
 }
 
-#about-image:hover {
+/* Index page about */
+
+#index-info {
+    height: 500px;
+
+}
+
+#info-header {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#left-info {
+    width: 27%;
+    float: left;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.left-info-text {
+    float: right;
+    text-align: center;
+}
+
+#center-info {
+    width: 27%;
+    margin: auto;
+    padding-top: 40px;
+    padding-left: 25px;
     
+}
+
+.center-info-text {
+    text-align: center;
+}
+
+#right-info {
+    width: 27%;
+    float: right;
+    padding-top: 40px;
+    padding-right: 25px;
+}
+
+.right-info-text {
+    float: left;
+    text-align: center;
 }
