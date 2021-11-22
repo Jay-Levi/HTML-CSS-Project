@@ -11,6 +11,7 @@ body {
     font-family: 'Russo One', sans-serif;
     font-weight: 400;
     background: url(../images/background-image.jpg) no-repeat center center;
+
 }
 
 hr {
@@ -27,16 +28,17 @@ a {
 
 /* Logo */
 
-h1 {
-    padding: 10px;
-    margin-left: 20px;
-    font-size: 50px;
-    
-}
-
 #logo {
     color: black;
     float: left;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+#logo:hover {
+    transition-property: color;
+    color: #5757f4;
 }
 
 
@@ -54,11 +56,24 @@ h1 {
     float: right;
     list-style: none;
     padding: 5px;
+    
 }
 
 #menu a {
     text-decoration: none;
+    color: #3a3a3a;
 
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+    transition-property: color;
+    color: #5757f4;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+    color: #5757f4; /*can't get this so work... */
 }
 
 /* About Section */
@@ -98,7 +113,14 @@ h1 {
     margin-top: 100px;
     margin-right: 100px;
     border-radius: 4%;
+    /* transition-property: width, height;
+    transition-timing-function: ease-in-out; */
 }
+
+/* #about-image:hover{
+    height: 415px;
+    width: 690px; 
+}*/
 
 /* sub about section */
 
@@ -196,4 +218,55 @@ footer {
     width: 100%;
     height: 150px;
     background-color: #CFFCF9;
+}
+
+footer li {
+    list-style: none;
+}
+
+#social-heading {
+    float: left;
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+#social-heading i {
+    font-size: 30px;
+    letter-spacing: 15px;
+    padding-top: 25px;
+    text-align: center;
+    color: #3a3a3a;
+}
+
+.social-media-links li {
+    display: inline;
+}
+
+#contact-heading {
+    float: right;
+    width: 30%;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
+.contact-list {
+    display: inline;
+}
+
+.contact-list li {
+padding-top: 15px;
+letter-spacing: 1px;
+}
+
+/*social icons transitions */
+
+#social-heading i:hover {
+    transition-property: color;
+    color: #819190;
 }
