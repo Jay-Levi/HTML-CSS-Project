@@ -73,7 +73,7 @@ a {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
-    color: #5757f4; /*can't get this so work... */
+    color: #5757f4; /* can't get this so work... */
 }
 
 /* About Section */
@@ -187,7 +187,7 @@ a {
     height: 395px;
     width: 670px;
     border-radius: 4%;
-    margin-left: 120px;
+    margin-left: 70px;
     margin-bottom: 30px;
 }
 
@@ -209,7 +209,17 @@ a {
 #events-click {
     width: 15%;
     float: right;
-    padding: 66px 170px 40px 34px;
+    margin: 70px 150px 40px 34px;
+}
+
+#events-click a {
+    color: #3a3a3a;
+    text-decoration: underline;
+}
+
+#events-click a:hover {
+    transition-property: color;
+    color: #819190;
 }
 
 /* footer section */
@@ -224,7 +234,7 @@ footer li {
     list-style: none;
 }
 
-#social-heading {
+.social-heading {
     float: left;
     width: 30%;
     text-align: center;
@@ -233,7 +243,7 @@ footer li {
     margin-top: 15px;
 }
 
-#social-heading i {
+.social-heading i {
     font-size: 30px;
     letter-spacing: 15px;
     padding-top: 25px;
@@ -245,7 +255,7 @@ footer li {
     display: inline;
 }
 
-#contact-heading {
+.contact-heading {
     float: right;
     width: 30%;
     text-align: center;
@@ -266,7 +276,28 @@ letter-spacing: 1px;
 
 /*social icons transitions */
 
-#social-heading i:hover {
+.social-heading i:hover {
     transition-property: color;
     color: #819190;
+}
+
+/* events page */
+
+#events {
+    height: 800px;
+    clear: both;
+}
+
+.event-container {
+    width: 75%;
+    height: 240px;
+    background-color: red;
+    margin: 30px 30px 110px 30px;
+}
+
+#event-hoop {
+    width: 720px;
+    height: 220px;
+    float: left;
+    background: url(../images/hoop-and-grapes-pub.jpg);
 }
