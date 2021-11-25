@@ -187,7 +187,7 @@ a {
     height: 395px;
     width: 670px;
     border-radius: 4%;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-bottom: 30px;
 }
 
@@ -284,20 +284,69 @@ letter-spacing: 1px;
 /* events page */
 
 #events {
-    height: 800px;
+    height: 1000px;
     clear: both;
+    padding-top: 150px;
+}
+
+#events h2 {
+    font-size: 40px;
+    margin-left: 20px;
 }
 
 .event-container {
     width: 75%;
     height: 240px;
-    background-color: red;
-    margin: 30px 30px 110px 30px;
+    background-color: red; /* delete later */
+    margin: 30px 30px 35px 30px;
+}
+
+.cover-text {
+    position: relative;
+    top: 50%;
+    left: 15%;
+    font-size: 30px;
+    color: white;
 }
 
 #event-hoop {
-    width: 720px;
-    height: 220px;
+    width: 400px;
+    height: 200px;
     float: left;
-    background: url(../images/hoop-and-grapes-pub.jpg);
+    background: url(../images/beer-in-a-bucket.jpg) no-repeat center center;
+    border-radius: 4%;
+    filter: grayscale(100%);
+    margin-top: 20px;
+}
+
+#event-park {
+    width: 400px;
+    height: 200px;
+    float: left;
+    background: url(../images/people-sitting-on-grass.jpg) no-repeat center center;
+    border-radius: 4%;
+    filter: grayscale(100%);
+    margin-top: 20px;
+}
+
+#event-coffee {
+    width: 400px;
+    height: 200px;
+    float: left;
+    background: url(../images/woman-in-coffee-shop.jpg) no-repeat center center;
+    border-radius: 4%;
+    filter: grayscale(100%);
+    margin-top: 20px;
+}
+
+.event-text {
+    height: 100%;
+    width: 50%;
+    float: right;
+    font-size: 20px;
+}
+
+.event-text li {
+    list-style: none;
+    padding-top: 20px;
 }
