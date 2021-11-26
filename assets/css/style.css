@@ -350,3 +350,14 @@ letter-spacing: 1px;
     list-style: none;
     padding-top: 20px;
 }
+
+.event-text i {
+    letter-spacing: 10px;
+    color: #3a3a3a;
+    font-size: 25px;
+}
+
+.event-text i:hover {
+        transition-property: color;
+        color: #819190;
+}
