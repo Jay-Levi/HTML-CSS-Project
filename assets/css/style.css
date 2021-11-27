@@ -297,8 +297,9 @@ letter-spacing: 1px;
 .event-container {
     width: 75%;
     height: 240px;
-    background-color: red; /* delete later */
     margin: 30px 30px 35px 30px;
+    border-style: solid;
+    border-radius: 4%;
 }
 
 .cover-text {
@@ -306,7 +307,7 @@ letter-spacing: 1px;
     top: 50%;
     left: 15%;
     font-size: 30px;
-    color: white;
+    color: white
 }
 
 #event-hoop {
@@ -315,8 +316,9 @@ letter-spacing: 1px;
     float: left;
     background: url(../images/beer-in-a-bucket.jpg) no-repeat center center;
     border-radius: 4%;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     margin-top: 20px;
+    margin-left: 25px;
 }
 
 #event-park {
@@ -325,8 +327,9 @@ letter-spacing: 1px;
     float: left;
     background: url(../images/people-sitting-on-grass.jpg) no-repeat center center;
     border-radius: 4%;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     margin-top: 20px;
+    margin-left: 25px;
 }
 
 #event-coffee {
@@ -335,8 +338,13 @@ letter-spacing: 1px;
     float: left;
     background: url(../images/woman-in-coffee-shop.jpg) no-repeat center center;
     border-radius: 4%;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     margin-top: 20px;
+    margin-left: 25px;
+}
+
+#event-coffee .cover-text {
+    color: rgb(23, 73, 121);
 }
 
 .event-text {
@@ -363,8 +371,27 @@ letter-spacing: 1px;
     
 }
 
-.signup-link {
-    
+.signup-button {
+    float: right;
+    display: block;
+    width: 40%;
+    height: 30%;
+    background-color: #3a3a3a;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 6%;
+    font-family: inherit;
+    margin: -10px 5px;
+}
+
+.signup-button a {
+    color: #fff;
+}
+
+.signup-button:hover {
+    transition-property: background-color;
+    background-color: #5757f4;
 }
 
 /* tooltips */

@@ -4,4 +4,11 @@ London Social Club (or LSC for short) was developed for the purpose of helping t
 
 
 ## Features
-### 
+
+### Features Left to Implement
+Google maps on events page
+
+
+## testing
+
+## Known Bugs
