@@ -446,3 +446,73 @@ letter-spacing: 1px;
       height: 800px;
       clear: both;
   }
+
+  #form-section h2 {
+      text-align: center;
+      border-bottom: 10px;
+  }
+
+  .signup-form {
+    margin: 35px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 30%;
+    padding: 30px;
+      
+  }
+
+  .text-box {
+      background: transparent;
+      border: 1px solid #fafafa;
+      height: 25px;
+      width: 100%;
+      margin: 10px 0 10px 0;
+      position: relative;
+      border-radius: 4%;
+      
+  }
+
+  .text-box:hover {
+    transition-property: border;
+    border: 1px solid #5757f4;
+  }
+
+  #check-box {
+      height: 15px;
+      width: 15px;
+      cursor: pointer;
+  }
+
+.join-button {
+    margin-top: 20px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #3a3a3a;
+    color: #fafafa;
+    display: block;
+    border-radius: 4%;
+    cursor: pointer;
+}
+
+.join-button:hover {
+    transition-property: background-color;
+    background-color: #5757f4;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1024px) {
+    #about-text {
+        height: 400px;
+        width: 100%;
+        float: left;
+        text-align: left;
+        margin-left: 100px;
+        margin-top: 200px;
+        width: 30%;
+        font-size: 20px;
+}
+}
