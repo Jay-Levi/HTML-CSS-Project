@@ -17,68 +17,40 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="signup.html">Sign Up</a> 
+                    <a href="signup.html" class="active">Sign Up</a> 
                 </li>
                 <li>
-                    <a href="events.html">Events</a>
+                    <a href="events.html" >Events</a>
                 </li>
                 <li>
-                    <a href="index.html" class="active">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
             </ul>
         </nav>
     </header>
-    
-    <section  id="main-about">
-        <div id="about-image"></div>
-        <div id="about-text">
-            <h2>What is LSC?</h2> 
-            <p>
-                During 2020, the lockdown made it very difficult for those wanting to get out and about with there friends,
-                that's why we at LSC have come together and made that all possible again, except a lot easier! 
-            </p>
-        </div>
+    <section id="form-section">
+
+        <form method="POST" action="#" class="signup-form">
+            <h2>Sign Up To Join Exclusive Events!</h2>
+            <label for="fname">First Name</label>
+            <input class="text-box" id="fname" name="first_name" type="text" required>
+
+            <label for="lname">Last Name</label>
+            <input class="text-box" id="lname" name="last_name" type="text" required>
+
+            <label for="email">Email</label>
+            <input class="text-box" id="email" name="email_address" type="email" required>
+
+            <label for="username">User Name</label>
+            <input class="text-box" id="username" name="user" type="text" required>
+
+            <label for="password">Password</label>
+            <input class="text-box" id="password" name="pass" type="password" required>
+
+            <label for="pwrepeat">Repeat Password</label>
+            <input class="text-box" id="pwrepeat" name="repeat_pass" type="password" required>
+        </form>
     </section>
-    <!-- <hr> -->
-    <section id="index-info">
-        <div id="info-header">
-            <h2>What is LSC?</h2> <!-- change this -->
-        </div>
-        <div id="left-info">
-            <div class="left-info-text">
-                <h2>Find Events Near You <i class="fas fa-search-location"></i></h2>
-                <p>LSC allows users to easily find meetups and events all over London.</p>
-            </div>
-        </div>
-            <div id="right-info">
-                <div class="right-info-text">
-                    <h2>Your Experience Matters <i class="fas fa-comments"></i></h2>
-                    <p>Help us improve the LSC experience, send us a message via social media or email and tell us how we can improve your experience.</p>
-
-                </div>
-            </div>
-            <div id="center-info">
-                <div class="center-info-text">
-                    <h2>Make Connections <i class="fas fa-users"></i></h2>
-                    <p>From amazing parties to simple coffee meetups or refreshing picnics, meet people you can make a real connection with.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="grabber">
-        <div id="grabber-image"></div>
-        <div id="grabber-text">
-            <div id="grabber-heading"> <h2>Sign Up Today!</h2> </div>
-                <p>Sign up today and join in on hundreds of events across London.<br>
-                    With 1000s of members in LSC you'll have great opportunities to meet some amazing people.<br>
-                    Make connections that will last a lifetime, Join LSC today.
-                </p>
-            </div>
-            <div id="events-click"> <p>Already a member? View upcomming events <a href="events.html">here</a></p></div>
-
-    </section>
-
     <footer>
         <div class="social-heading">
             <h2>Follow Us</h2>
@@ -111,6 +83,7 @@
                 <li>Email: londonsocial.contact@lsc.co.uk</li>
                 <li>Phone: +44 7700 900400</li>
             </ul>
+            <!-- add copyright div -->
         </div>   
     </footer>
     <!-- font awesome script -->

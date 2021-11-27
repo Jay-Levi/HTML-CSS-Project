@@ -439,3 +439,10 @@ letter-spacing: 1px;
     visibility: visible;
     opacity: 1;
   }
+
+  /* signup form */
+
+  #form-section {
+      height: 800px;
+      clear: both;
+  }
